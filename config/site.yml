@@ -180,7 +180,7 @@ seo:
 adminPath: 'admin'
 
 adminUsers:
-  - 'janesmith'
+  - 'gozlem'
 
 # GDPR cookie consent banner
 cookieConsent: false
