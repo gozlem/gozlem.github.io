@@ -43,7 +43,7 @@
 </p>
 
 ---
-
+Ozlem
 **ScholarOS** is a free, open source academic website system that treats your site as a _living research surface_, not a static brochure.
 
 It is built for people who publish papers, recruit students, run labs, maintain CVs, announce results, and share ideas continuously — and who are tired of manually updating websites to keep up.
