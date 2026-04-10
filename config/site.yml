@@ -14,7 +14,7 @@ defaultTheme: 'light' # "light" | "dark" | "system"
 # Top bar (thin bar above header)
 topBar:
   enabled: true
-  text: 'Department of Computer Science, University of Technology'
+  text: 'Industrial Engineering and Management Systems, University of Central Florida'
   links:
     - label: 'Apply Now'
       href: '/positions'
@@ -79,7 +79,7 @@ imageShape: 'rectangular' # "rectangular" | "circular" | "oval"
 about:
   enabled: true
   title: 'About Our Lab'
-  text: 'We are a multidisciplinary research group dedicated to advancing the frontiers of computer science and artificial intelligence. Our work spans natural language processing, computer vision, and human–computer interaction, with a focus on building systems that are robust, interpretable, and socially responsible.'
+  text: 'We are a multidisciplinary research group focused on AI applied to bioinformatics (drug discovery, molecular design), responsible AI (fairness, interpretability, human-centered design, bias mitigation), and social cybersecurity (AI models to understand and counter influence operations on social and traditional media). Our work spans artificial intelligence, evolutionary computation, complex systems, and network science, with applications in STEM education analytics and higher education economic engagement.'
   image: '/images/about.jpg'
 
 # Homepage section order and visibility
@@ -97,11 +97,11 @@ homepageSections:
     enabled: true
 
 title: 'Research Lab'
-description: 'Welcome to our research lab. We explore cutting-edge topics in computer science and artificial intelligence.'
-author: 'Prof. Jane Smith'
-labName: 'Smith Research Lab'
-university: 'University of Technology'
-department: 'Department of Computer Science'
+description: 'Research lab of Dr. Ozlem Ozmen Garibay at UCF, focused on AI applied to bioinformatics, responsible AI, and social cybersecurity.'
+author: 'Ozlem O. Garibay'
+labName: 'Garibay Research Lab'
+university: 'University of Central Florida'
+department: 'Department of Industrial Engineering and Management Systems'
 siteUrl: 'https://example.com'
 
 # Navigation items
@@ -127,7 +127,7 @@ nav:
 
 # GitHub repositories page
 github:
-  username: 'example-lab'
+  username: 'gozlem'
   stats: true
   trophies: false
   showPinnedRepos: true
@@ -140,12 +140,12 @@ github:
 
 # Social links
 socials:
-  email: 'lab@example.com'
-  github: 'https://github.com/example-lab'
-  scholar: 'https://scholar.google.com/citations?user=EXAMPLE'
+  email: 'ozlem@ucf.edu'
+  github: 'https://github.com/gozlem'
+  scholar: 'https://scholar.google.com/citations?user=0RKzNtIAAAAJ&hl=en'
   twitter: 'https://twitter.com/example_lab'
-  linkedin: 'https://linkedin.com/company/example-lab'
-  orcid: 'https://orcid.org/0000-0000-0000-0000'
+  linkedin: 'https://www.linkedin.com/in/ozlem-ozmen-garibay/'
+  orcid: 'https://orcid.org/my-orcid?orcid=0000-0001-9215-694X'
   # mastodon: "https://mastodon.social/@example"
   # bluesky: "https://bsky.app/profile/example.bsky.social"
 

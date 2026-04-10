@@ -3,61 +3,99 @@
 # Fields use camelCase for CMS compatibility; the render script converts to RenderCV format.
 
 cv:
-  name: 'Prof. Jane Smith'
-  location: 'City, Country'
-  email: 'jane.smith@example.com'
-  phone: '+1-555-0100'
-  website: 'https://example.com'
+  name: 'Ozlem Ozmen Garibay'
+  location: 'Orlando, FL 32816-2993'
+  email: 'ozlem@ucf.edu'
+  phone: '(407) 883-1122'
+  website: 'https://iems.ucf.edu/people/ozlem-ozmen-garibay'
 
   socialNetworks:
-    - network: 'LinkedIn'
-      username: 'janesmith'
-    - network: 'GitHub'
-      username: 'janesmith'
+    - network: 'Google Scholar'
+      username: 'https://scholar.google.com/citations?user=0RKzNtIAAAAJ&hl=en'
 
   sections:
     education:
-      - institution: 'University of Example'
+      - institution: 'University of Central Florida'
         area: 'Computer Science'
         degree: 'Ph.D.'
-        location: 'City, Country'
-        startDate: '2010-09'
-        endDate: '2015-05'
-        highlights:
-          - 'Thesis: Adaptive Methods for Low-Resource NLP'
-          - 'Advisor: Prof. John Doe'
-      - institution: 'University of Example'
-        area: 'Computer Science'
-        degree: 'M.S.'
-        location: 'City, Country'
-        startDate: '2008-09'
-        endDate: '2010-05'
-        highlights: []
-      - institution: 'Another University'
-        area: 'Mathematics'
-        degree: 'B.S.'
-        location: 'City, Country'
-        startDate: '2004-09'
+        location: 'Orlando, FL'
+        startDate: '2002-08'
         endDate: '2008-05'
+        highlights:
+          - 'Dissertation: Analyzing the effects of modularity on search spaces.'
+      - institution: 'University of Central Florida'
+        area: 'Computer Science'
+        degree: 'M.Sc.'
+        location: 'Orlando, FL'
+        startDate: '2000-08'
+        endDate: '2001-05'
+        highlights: []
+      - institution: 'Middle East Technical University (METU)'
+        area: 'Electrical and Electronic Engineering'
+        degree: 'B.Sc.'
+        location: 'Ankara, Turkey'
+        startDate: '1993-09'
+        endDate: '1998-06'
         highlights: []
 
     experience:
-      - company: 'University of Technology'
-        position: 'Associate Professor'
-        location: 'City, Country'
-        startDate: '2020-01'
+      - company: 'University of Central Florida'
+        position: 'Assistant Professor, IEMS'
+        location: 'Orlando, FL'
+        startDate: '2020-08'
         endDate: 'present'
         highlights:
-          - 'Leading research group of 10+ members in NLP and multimodal learning'
-          - 'Teaching graduate courses in NLP and Machine Learning'
-      - company: 'Previous University'
-        position: 'Assistant Professor'
-        location: 'City, Country'
-        startDate: '2015-09'
-        endDate: '2019-12'
+          - 'Research in AI applied to bioinformatics, responsible AI, and social cybersecurity'
+          - 'PI/Co-PI on grants from NSF, DARPA, and Amazon AWS'
+      - company: 'University of Central Florida'
+        position: 'Lecturer, IEMS'
+        location: 'Orlando, FL'
+        startDate: '2019-08'
+        endDate: '2020-08'
+        highlights: []
+      - company: 'University of Central Florida'
+        position: 'Lecturer, MSDA Program'
+        location: 'Orlando, FL'
+        startDate: '2016-08'
+        endDate: 'present'
+        highlights: []
+      - company: 'University of Central Florida'
+        position: 'Director of Research Technology and CIO'
+        location: 'Orlando, FL'
+        startDate: '2017'
+        endDate: '2020'
         highlights:
-          - 'Established NLP research lab'
-          - 'Secured $500K+ in research funding'
+          - 'Research and Graduate Studies'
+      - company: 'University of Central Florida'
+        position: 'Executive Director / Interim Director of Research Technology'
+        location: 'Orlando, FL'
+        startDate: '2013'
+        endDate: '2017'
+        highlights: []
+      - company: 'University of Central Florida'
+        position: 'Associate Director of Research Technology'
+        location: 'Orlando, FL'
+        startDate: '2010'
+        endDate: '2013'
+        highlights: []
+      - company: 'University of Central Florida'
+        position: 'Research Associate, Office of Research'
+        location: 'Orlando, FL'
+        startDate: '2010'
+        endDate: '2017'
+        highlights: []
+      - company: 'University of Central Florida'
+        position: 'Business Intelligence and Data Analytics Manager'
+        location: 'Orlando, FL'
+        startDate: '2005'
+        endDate: '2009'
+        highlights: []
+      - company: 'SODAS'
+        position: 'Chief Electrical Engineer'
+        location: 'Turkey'
+        startDate: '1998'
+        endDate: '1998'
+        highlights: []
 
     publications:
       - title: 'Equi-mRNA: Protein Translation Equivariant Encoding for mRNA Language Models'
@@ -67,20 +105,26 @@ cv:
         doi: '10.48550/arXiv.2508.15103'
 
     awards:
-      - label: 'Best Paper Award, ACL 2023'
-        details: '2023'
-      - label: 'NSF CAREER Award'
+      - label: 'Best Paper Award, 6th International Conference on Artificial Intelligence in HCI'
+        details: '2025'
+      - label: 'Best Poster Award (3rd Place), ASME IMECE'
         details: '2022'
-      - label: 'Outstanding Dissertation Award'
-        details: '2016'
+      - label: 'Best Human-Autonomy Teaming Paper Award, SBP-BRiMS'
+        details: '2021'
+      - label: 'Outstanding Service Award, APLU CICEP'
+        details: '2017'
+      - label: 'Best Paper Award nomination, GECCO'
+        details: '2005'
+      - label: 'Dean Fellowship, invited international exchange student'
+        details: '2000'
+      - label: 'Ranked top 0.03% among 1.69 million students, Turkey university entrance exam'
+        details: '1992'
 
     skills:
-      - label: 'Languages'
-        details: 'Python, TypeScript, C++'
-      - label: 'Frameworks'
-        details: 'PyTorch, TensorFlow, Hugging Face Transformers'
       - label: 'Research Areas'
-        details: 'NLP, Multimodal Learning, AI Safety, Low-Resource Languages'
+        details: 'AI applied to bioinformatics, responsible AI, social cybersecurity, drug discovery, molecular design, evolutionary computation, complex systems'
+      - label: 'Keywords'
+        details: 'Big data, social media, social cybersecurity, artificial social intelligence, human-machine teams, network science, STEM education analytics, genetic algorithms, bioinformatics, AI assisted drug design, Drug Target Interaction'
 
 # RenderCV theme and design options
 design:
